@@ -1,0 +1,14 @@
+{
+    "id": "Trade",
+    "version": "0.0.1",
+    "author": "niksoc",
+    "displayName": "Trade",
+    "description": "Base Trade Module",
+    "dependencies": [
+    {
+      "id" : "Core",
+      "minVersion" : "1.0.0"
+    }
+    ],
+    "serverSideOnly": false
+}

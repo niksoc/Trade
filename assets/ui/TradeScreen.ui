@@ -1,0 +1,53 @@
+{
+  "type": "TradeScreen",
+  "skin": "engine:default",
+  "contents": {
+    "type": "RelativeLayout",
+    "contents": [
+      {
+        "type": "engine:ScrollableArea",
+        "id": "scrollableArea",
+        "layoutInfo": {},
+        "contents": [
+          {
+            "type": "engine:ColumnLayout",
+            "id": "column",
+            "layoutInfo": {},
+            "contents": [
+              {
+                "type": "engine:UILabel",
+                "id": "newWidget",
+                "layoutInfo": {},
+                "text": "Welcome to the Shop!"
+              },
+              {
+                "type": "engine:UIList",
+                "id": "itemList",
+                "layoutInfo": {}
+              },
+              {
+                "type": "engine:RowLayout",
+                "id": "buttonsRow",
+                "layoutInfo": {},
+                "contents": [
+                  {
+                    "type": "engine:UIButton",
+                    "id": "cancelButton",
+                    "layoutInfo": {},
+                    "text": "Cancel"
+                  },
+                  {
+                    "type": "engine:UIButton",
+                    "id": "buyButton",
+                    "layoutInfo": {},
+                    "text": "Buy"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

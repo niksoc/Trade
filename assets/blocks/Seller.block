@@ -1,0 +1,13 @@
+{
+  "basedOn": "core:wood",
+  "attachmentAllowed": false,
+  "rotation": "horizontal",
+  "tiles": {
+    "sides": "ChestSides",
+    "front": "ChestFront",
+    "topBottom": "ChestTopBottom"
+  },
+  "entity": {
+    "prefab": "seller"
+  }
+}

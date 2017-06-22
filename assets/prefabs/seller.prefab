@@ -1,0 +1,11 @@
+{
+  "InteractionTarget": {},
+  "InteractionScreen": {
+    "screen": "Trade:tradeScreen"
+  },
+  "Seller": {
+    "itemsOnSale": ["core:pickaxe", "core:tnt", "Projectile:fireball"]
+  },
+  "Network": {
+  }
+}
